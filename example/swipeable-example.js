@@ -57,6 +57,8 @@ function Example1({onOpen, onClose}) {
       ]}
       onRightButtonsOpenRelease={onOpen}
       onRightButtonsCloseRelease={onClose}
+      swipeStartMinLeftEdgeClearance={10}
+      swipeStartMinRightEdgeClearance={10}
     >
       <View style={[styles.listItem, {backgroundColor: 'salmon'}]}>
         <Text>Example 1</Text>
